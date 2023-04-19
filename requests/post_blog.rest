@@ -1,0 +1,21 @@
+### post blog info
+
+POST http://localhost:3003/api/blogs HTTP/1.1
+content-type: application/json
+
+    {
+        "author": "Clement brule",
+        "title": "Best practice for modern JS application",
+        "url": "NONE"
+    }
+
+###post blog info
+
+POST http://localhost:3003/api/blogs HTTP/1.1
+content-type: application/json
+
+    {
+        "author": "Albert Camus",
+        "title": "La peste",
+        "url": "NONE"
+    }
