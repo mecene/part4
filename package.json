@@ -84,9 +84,12 @@
     "whatwg-url": "^11.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "test": "jest --verbose"
   },
   "author": "Clement Brule / Helsinkfullstackopen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
