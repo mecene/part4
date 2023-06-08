@@ -99,7 +99,7 @@ describe('total likes', () => {
         title: "Go To Statement Considered Harmful",
         author: "Edsger W. Dijkstra",
         url: "http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html",
-        likes: 5,
+        likes: 12,
         __v: 0
       },
       {
@@ -111,7 +111,7 @@ describe('total likes', () => {
         __v: 0
       },
     ]
-
+// test the latest if likes are equals
     test('Of a the most likes article (favorite)', () => {
       const result = listHelper.favoriteBlog(blogs)
       console.log(`The total of likes is ${result}`);
